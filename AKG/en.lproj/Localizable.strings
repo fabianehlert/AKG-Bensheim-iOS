@@ -1,0 +1,149 @@
+/* 
+  Localizable.strings
+  AKG
+
+  Created by Fabian Ehlert on 23.01.14.
+  Copyright (c) 2014 Fabian Ehlert. All rights reserved.
+*/
+
+"SUPPLY_PLAN_KEY" = "Supply plan";
+"MENU_PLAN_KEY" = "Menu";
+"HOMEWORK_KEY" = "Homework";
+"APPOINTMENTS_KEY" = "Appointments";
+"TEACHERS_KEY" = "Teachers";
+"WEBSITE_KEY" = "Website";
+"CONTACT_KEY" = "Contact";
+"SETTINGS_KEY" = "Settings";
+"HELP_KEY" = "Help";
+"FAQ_KEY" = "FAQ";
+"LEGAL_NOTICE_KEY" = "Legal notice";
+"MAP_KEY" = "Map";
+
+"QNA_KEY" = "Questions & Answers";
+
+"todayTitleString" = "Today";
+"tomorrowTitleString" = "Tomorrow";
+"SUPPLY_NOT_AVLBL_KEY" = "No supplies";
+"APPOINTMENTS_NOT_AVLBL_KEY" = "No appointments";
+
+"CHOOSE_CLASS_ALERT_TITLE_KEY" = "Select your class";
+"CHOOSE_CLASS_ALERT_MESSAGE_KEY" = "Select your class in order to filter the supply plan.";
+
+"COURSES_KEY" = "Courses";
+"CHOOSE_COURESES_ALERT_TITLE_KEY" = "Select your courses";
+"CHOOSE_COURESES_ALERT_MESSAGE_KEY" = "Select your courses in order to filter the supply plan.";
+
+"CHOOSE_LATER_KEY" = "Later";
+"CHOOSE_NOW_KEY" = "Select now";
+
+"PHONE_ALERT_TITLE_KEY" = "Call AKG";
+"PHONE_ALERT_MESSAGE_KEY" = "Do you want to call the AKG?";
+"PHONE_ERROR_TITLE_KEY" = "Cannot call";
+"NO_KEY" = "No";
+"CALL_KEY" = "Call";
+
+"MAIL_ERROR_KEY" = "Cannot send Mail";
+
+"EXTERN_WEB_ALERT_TITLE_KEY" = "Open Link?";
+"EXTERN_WEB_ALERT_MESSAGE_KEY" = "Would you like to open the link in Safari?";
+"EXTERN_APPSTORE_ALERT_MESSAGE_KEY" = "Would you like to open the link in the App Store?";
+"CANCEL_TITLE_KEY" = "Cancel";
+"EXTERN_WEB_ALERT_OPEN_KEY" = "Open";
+
+"MAP_DIRECTIONS_KEY" = "Directions to the AKG";
+"MAP_ALERT_TITLE_KEY" = "Open \"Maps\" App?";
+"MAP_ALERT_MESSAGE_KEY" = "In order to show directions, you have to open the \"Maps\" App.";
+
+"kalenderERROR_KEY" = "An error occurred. The event could not be created in your calendar.";
+"kalenderDatenschutzHinweis" = "In order to create events, you have to activate 'Calendars' in your privacy settings.";
+"CAL_ADD" = "Create Event";
+
+"nachrichtKannNichtVersendetWerden" = "Can not send message";
+
+"COURSES_NOT_AVLBL_KEY" = "No courses";
+
+"FEEDBACK_KEY" = "Send Feedback";
+"FEEDBACK_GENERAL" = "General feedback";
+"FEEDBACK_HELP" = "Help";
+"FEEDBACK_BUG" = "Report a bug";
+
+"ADD_KEY" = "Add";
+"SAVE_KEY" = "Save";
+
+"ERROR_KEY" = "Error!";
+
+"ADDRESSBOOK_ERROR_MESSAGE" = "In order to create contacts in your address book, you first have to grant address book access to the AKG App.";
+
+"REMINDER_TITLE" = "Reminder";
+"CREATED_REMINDER" = "Created Reminder!";
+"REMINDER_PRIVACY_HINT" = "In order to create a reminder, you have to activate 'Reminders' in your privacy settings.";
+
+"FIRST_NAME" = "First name";
+"SURNAME" = "Surname";
+"ABBREVIATION" = "Abbrev.";
+"SUBJECTS" = "Subjects";
+
+"SUBJECT_KEY" = "Subject";
+"COURSE_NR_KEY" = "Number";
+"LEISTUNGSKURS" = "Advanced course";
+"TUTORKURS" = "Tutorial";
+
+"ADD_TO_CONTACTS" = "Add to contacts";
+
+"EDIT_COURSE" = "Edit Course";
+"NEW_COURSE" = "New Course";
+"COURSE_EXISTS_TITLE" = "Course exists already";
+"COURSE_EXISTS_MESSAGE" = "You added this course already. You cannot add it again.";
+"COURSE_SINGULAR" = "Course";
+"COURSE_PLURAL" = "Courses";
+
+"CURRENT_WEEK" = "Current week";
+"NEXT_WEEK" = "Next week";
+
+"ADDRESS_KEY" = "Address";
+"PHONE_KEY" = "Phone";
+"AKG_DIREKTION_KEY" = "Head of school";
+
+"CLASS_TITLE_KEY" = "Class";
+"FILTER_COURSES" = "Filter courses";
+"COLORS_SUPPLY_PLAN" = "Colors in supply plan";
+"COLORS_PLURAL" = "Colors";
+"BACKGROUNDIMAGE_TITLE_KEY" = "Background Image";
+"BGIMAGE_BLUR" = "Blur Background Image";
+
+"CHOOSE_IMAGE_TITLE" = "Choose Background Image";
+"PHOTO_LIB_KEY" = "Photo Library";
+"CAMERA_KEY" = "Take with Camera";
+"LOAD_FROM_URL" = "Load from URL";
+"USE_DEFAULT_IMG" = "Use Default Image";
+
+"ENTER_URL_KEY" = "Enter URL";
+"URL_MESSAGE_KEY" = "Here you can enter the URL of the Image you would like to load.";
+"LOAD_KEY" = "Load";
+
+"TITLE_PLACEHOLDER_KEY" = "Title";
+"NOTES_PLACEHOLDER_KEY" = "Notes";
+"TIME_DESCRIPTION_KEY" = "Date";
+"LOCATION_DESCRIPTION_KEY" = "Location";
+
+"HOMEWORK_NOT_AVLBL_KEY" = "No tasks";
+"TASK_TITLE" = "Task";
+"NEW_TASK" = "New task";
+"SUBJECT_TITLE" = "Subject";
+"TASK_NOTES" = "Notes";
+
+"DELETE_TASK_QUESTION" = "Delete homework?";
+"DELETE_TASK_TITLE" = "Delete task";
+"DELETE_TITLE" = "Delete";
+
+"MARK_TASK_AS_DONE" = "Mark as done";
+"MARK_TASK_AS_UN_DONE" = "Mark as to do";
+
+"CLOSE_TITLE" = "Close";
+
+"NO_RESULTS" = "No results";
+
+"MENSA_NOT_AVAILABLE" = "Menu not available";
+"WEB_ERROR_LOADING" = "Error while loading";
+
+"EVENT_CREATED" = "Event added!";

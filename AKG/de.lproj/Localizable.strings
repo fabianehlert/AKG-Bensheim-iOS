@@ -1,0 +1,149 @@
+/* 
+  Localizable.strings
+  AKG
+
+  Created by Fabian Ehlert on 23.01.14.
+  Copyright (c) 2014 Fabian Ehlert. All rights reserved.
+*/
+
+"SUPPLY_PLAN_KEY" = "Vertretungsplan";
+"MENU_PLAN_KEY" = "Speiseplan";
+"HOMEWORK_KEY" = "Hausaufgaben";
+"APPOINTMENTS_KEY" = "Termine";
+"TEACHERS_KEY" = "Lehrer";
+"WEBSITE_KEY" = "Website";
+"CONTACT_KEY" = "Kontakt";
+"SETTINGS_KEY" = "Einstellungen";
+"HELP_KEY" = "Hilfe";
+"FAQ_KEY" = "FAQ";
+"LEGAL_NOTICE_KEY" = "Impressum";
+"MAP_KEY" = "Karte";
+
+"QNA_KEY" = "Fragen & Antworten";
+
+"todayTitleString" = "Heute";
+"tomorrowTitleString" = "Morgen";
+"SUPPLY_NOT_AVLBL_KEY" = "Keine Vertretungen";
+"APPOINTMENTS_NOT_AVLBL_KEY" = "Keine Termine";
+
+"CHOOSE_CLASS_ALERT_TITLE_KEY" = "Klasse wählen";
+"CHOOSE_CLASS_ALERT_MESSAGE_KEY" = "Wähle deine Klasse aus, damit der Vertretungsplan für dich gefiltert werden kann.";
+
+"COURSES_KEY" = "Kurse";
+"CHOOSE_COURESES_ALERT_TITLE_KEY" = "Kurse wählen";
+"CHOOSE_COURESES_ALERT_MESSAGE_KEY" = "Wähle deine Kurse aus, damit der Vertretungsplan für dich gefiltert werden kann.";
+
+"CHOOSE_LATER_KEY" = "Später";
+"CHOOSE_NOW_KEY" = "Jetzt wählen";
+
+"PHONE_ALERT_TITLE_KEY" = "AKG anrufen";
+"PHONE_ALERT_MESSAGE_KEY" = "Möchtest du im AKG anrufen?";
+"PHONE_ERROR_TITLE_KEY" = "Anruf unmöglich";
+"NO_KEY" = "Nein";
+"CALL_KEY" = "Anrufen";
+
+"MAIL_ERROR_KEY" = "Mail nicht verfügbar";
+
+"EXTERN_WEB_ALERT_TITLE_KEY" = "Link öffnen?";
+"EXTERN_WEB_ALERT_MESSAGE_KEY" = "Möchtest du den Link in Safari öffnen?";
+"EXTERN_APPSTORE_ALERT_MESSAGE_KEY" = "Möchtest du den Link im App Store öffnen?";
+"CANCEL_TITLE_KEY" = "Abbrechen";
+"EXTERN_WEB_ALERT_OPEN_KEY" = "Öffnen";
+
+"MAP_DIRECTIONS_KEY" = "Wegbeschreibung zum AKG";
+"MAP_ALERT_TITLE_KEY" = "\"Karten\" App öffnen?";
+"MAP_ALERT_MESSAGE_KEY" = "Um die Wegbeschreibung ansehen zu können, muss die \"Karten\" App geöffnet werden.";
+
+"kalenderERROR_KEY" = "Der Kalendereintrag konnte nicht erstellt werden.";
+"kalenderDatenschutzHinweis" = "Um Termine in deinen Kalender eintragen zu können, musst Du zuerst 'Kalender' in den Datenschutz-Einstellungen deines Geräts aktivieren.";
+"CAL_ADD" = "Ereignis erstellen";
+
+"nachrichtKannNichtVersendetWerden" = "Senden nicht möglich";
+
+"COURSES_NOT_AVLBL_KEY" = "Keine Kurse";
+
+"FEEDBACK_KEY" = "Feedback senden";
+"FEEDBACK_GENERAL" = "Rückmeldung zur App";
+"FEEDBACK_HELP" = "Frage zur App";
+"FEEDBACK_BUG" = "Einen Fehler melden";
+
+"ADD_KEY" = "Hinzufügen";
+"SAVE_KEY" = "Speichern";
+
+"ERROR_KEY" = "Fehler!";
+
+"ADDRESSBOOK_ERROR_MESSAGE" = "Um Kontakte in deinem Adressbuch eintragen zu können, musst Du zuerst die Kontaktfreigabe für die AKG App in den Datenschutz-Einstellungen deines Geräts aktivieren.";
+
+"REMINDER_TITLE" = "Erinnerung";
+"CREATED_REMINDER" = "Erinnerung erstellt!";
+"REMINDER_PRIVACY_HINT" = "Um Erinnerungen in deine Erinnerungsliste eintragen zu können, musst Du zuerst 'Erinnerungen' in den Datenschutz-Einstellungen deines Geräts aktivieren.";
+
+"FIRST_NAME" = "Vorname";
+"SURNAME" = "Name";
+"ABBREVIATION" = "Kürzel";
+"SUBJECTS" = "Fächer";
+
+"SUBJECT_KEY" = "Fach";
+"COURSE_NR_KEY" = "Kurs-Nr.";
+"LEISTUNGSKURS" = "Leistungskurs";
+"TUTORKURS" = "Tutorkurs";
+
+"ADD_TO_CONTACTS" = "Zu Kontakten hinzufügen";
+
+"EDIT_COURSE" = "Kurs bearbeiten";
+"NEW_COURSE" = "Neuer Kurs";
+"COURSE_EXISTS_TITLE" = "Kurs existiert bereits";
+"COURSE_EXISTS_MESSAGE" = "Der Kurs wurde bereits zu deiner Kursliste hinzugefügt. Du kannst ihn nicht erneut hinzufügen.";
+"COURSE_SINGULAR" = "Kurs";
+"COURSE_PLURAL" = "Kurse";
+
+"CURRENT_WEEK" = "Diese Woche";
+"NEXT_WEEK" = "Nächste Woche";
+
+"ADDRESS_KEY" = "Adresse";
+"PHONE_KEY" = "Telefon";
+"AKG_DIREKTION_KEY" = "Direktion";
+
+"CLASS_TITLE_KEY" = "Klasse";
+"FILTER_COURSES" = "Kurse filtern";
+"COLORS_SUPPLY_PLAN" = "Farben im Vertretungsplan";
+"COLORS_PLURAL" = "Farben";
+"BACKGROUNDIMAGE_TITLE_KEY" = "Hintergrundbild";
+"BGIMAGE_BLUR" = "Bild weichzeichnen";
+
+"CHOOSE_IMAGE_TITLE" = "Hintergrundbild wählen";
+"PHOTO_LIB_KEY" = "Fotobibliothek";
+"CAMERA_KEY" = "Bild aufnehmen";
+"LOAD_FROM_URL" = "Von URL laden";
+"USE_DEFAULT_IMG" = "Standard-Bild verwenden";
+
+"ENTER_URL_KEY" = "URL eingeben";
+"URL_MESSAGE_KEY" = "Gib hier die Adresse (URL) des Bildes, das du laden möchtest, ein.";
+"LOAD_KEY" = "Laden";
+
+"TITLE_PLACEHOLDER_KEY" = "Titel";
+"NOTES_PLACEHOLDER_KEY" = "Notizen";
+"TIME_DESCRIPTION_KEY" = "Zeitpunkt";
+"LOCATION_DESCRIPTION_KEY" = "Ortsabhängig";
+
+"HOMEWORK_NOT_AVLBL_KEY" = "Keine Aufgaben";
+"TASK_TITLE" = "Aufgabe";
+"NEW_TASK" = "Neue Aufgabe";
+"SUBJECT_TITLE" = "Fach";
+"TASK_NOTES" = "Notizen";
+
+"DELETE_TASK_QUESTION" = "Aufgabe löschen?";
+"DELETE_TASK_TITLE" = "Aufgabe löschen";
+"DELETE_TITLE" = "Löschen";
+
+"MARK_TASK_AS_DONE" = "Als erledigt markieren";
+"MARK_TASK_AS_UN_DONE" = "Als zu erledigend markieren";
+
+"CLOSE_TITLE" = "Schließen";
+
+"NO_RESULTS" = "Keine Ergebnisse";
+
+"MENSA_NOT_AVAILABLE" = "Speiseplan nicht verfügbar";
+"WEB_ERROR_LOADING" = "Fehler beim Laden";
+
+"EVENT_CREATED" = "Ereignis erstellt!";

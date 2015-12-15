@@ -1,0 +1,676 @@
+{
+	"teachers": [
+		{
+			"firstname": "Gundolf",
+			"lastname": "Aisenpreis",
+			"shortname": "Ai",
+			"subjects": "Deutsch, Musik",
+			"email": "Ai@akg-bensheim.de"
+		},
+		{
+			"firstname": "Felix",
+			"lastname": "Backs",
+			"shortname": "Ba",
+			"subjects": "Geschichte, PoWi",
+			"email": "Feba@gmx.at"
+		},
+		{
+			"firstname": "Inga",
+			"lastname": "Becker",
+			"shortname": "xBk",
+			"subjects": "-",
+			"email": "xBk@akg-bensheim.de"
+		},
+		{
+			"firstname": "Susanne",
+			"lastname": "Benz",
+			"shortname": "Be",
+			"subjects": "Deutsch, Englisch",
+			"email": "Be@akg-bensheim.de"
+		},
+		{
+			"firstname": "Mechthild",
+			"lastname": "Borst",
+			"shortname": "Bt",
+			"subjects": "Biologie, Sport",
+			"email": "Bt@akg-bensheim.de"
+		},
+		{
+			"firstname": "Dr. Hans-Jürgen",
+			"lastname": "Boysenstern",
+			"shortname": "By",
+			"subjects": "Kunst, PoWi",
+			"email": "By@akg-bensheim.de"
+		},
+		{
+			"firstname": "Andreas",
+			"lastname": "Brückmann",
+			"shortname": "Bm",
+			"subjects": "Geschichte, PoWi",
+			"email": "Bm@akg-bensheim.de"
+		},
+		{
+			"firstname": "Dr. Michael",
+			"lastname": "Brügger",
+			"shortname": "zBg",
+			"subjects": "Physik, Chemie",
+			"email": "zBg@akg-bensheim.de"
+		},
+		{
+			"firstname": "Dieter",
+			"lastname": "Brüns",
+			"shortname": "Bs",
+			"subjects": "Deutsch, Geschichte, PoWi, Ethik, Philosophie",
+			"email": "Bs@akg-bensheim.de"
+		},
+		{
+			"firstname": "Jochen",
+			"lastname": "Burhenne",
+			"shortname": "Bh",
+			"subjects": "Geschichte, PoWi, Kunst",
+			"email": "Bh@akg-bensheim.de"
+		},
+		{
+			"firstname": "Elfi",
+			"lastname": "Carrell",
+			"shortname": "Ca",
+			"subjects": "Englisch, PoWi",
+			"email": "Ca@akg-bensheim.de"
+		},
+		{
+			"firstname": "Bettina",
+			"lastname": "Chappuzeau-Schmidtke",
+			"shortname": "Ch",
+			"subjects": "Englisch, Musik",
+			"email": "Ch@akg-bensheim.de"
+		},
+		{
+			"firstname": "Claudia",
+			"lastname": "Dienst",
+			"shortname": "zDi",
+			"subjects": "evangelische Religion",
+			"email": "zDi@akg-bensheim.de"
+		},
+		{
+			"firstname": "Hendrik",
+			"lastname": "Dietz",
+			"shortname": "Dz",
+			"subjects": "Deutsch, Latein",
+			"email": "HCN.Dietz@t-online.de"
+		},
+		{
+			"firstname": "Susanne",
+			"lastname": "Dönicke",
+			"shortname": "Dö",
+			"subjects": "Biologie, Ethik, Latein",
+			"email": "Doe@akg-bensheim.de"
+		},
+		{
+			"firstname": "Sabrina",
+			"lastname": "Elbert",
+			"shortname": "xEl",
+			"subjects": "Geschichte, kath. Religion",
+			"email": "xEl@akg-bensheim.de"
+		},
+		{
+			"firstname": "Christiane",
+			"lastname": "Engelhardt",
+			"shortname": "Eh",
+			"subjects": "Deutsch, Englisch, Französisch",
+			"email": "Eh@akg-bensheim.de"
+		},
+		{
+			"firstname": "Christian",
+			"lastname": "Ferber",
+			"shortname": "zFb",
+			"subjects": "evangelische Religion",
+			"email": "zFb@akg-bensheim.de"
+		},
+		{
+			"firstname": "Claus",
+			"lastname": "Forcke",
+			"shortname": "Fe",
+			"subjects": "Griechisch, Latein",
+			"email": "Fe@akg-bensheim.de"
+		},
+		{
+			"firstname": "Markus",
+			"lastname": "Forster",
+			"shortname": "Fo",
+			"subjects": "Sport",
+			"email": "Fo@akg-bensheim.de"
+		},
+		{
+			"firstname": "Tanja",
+			"lastname": "Freßdorf-Schelzius",
+			"shortname": "Fd",
+			"subjects": "Griechisch, Latein, ev. Religion",
+			"email": "tfs@gmx.de"
+		},
+		{
+			"firstname": "Carina",
+			"lastname": "Fröhlich",
+			"shortname": "Frö",
+			"subjects": "Englisch, Französisch",
+			"email": "carina.froehlich@arcor.de"
+		},
+		{
+			"firstname": "Ulrike",
+			"lastname": "Ganz-Rizzo",
+			"shortname": "Ga",
+			"subjects": "Deutsch, Französisch, Italienisch",
+			"email": "Ga@akg-bensheim.de"
+		},
+		{
+			"firstname": "Angela",
+			"lastname": "Geiger",
+			"shortname": "Gg",
+			"subjects": "Chemie, Französisch",
+			"email": "Gg@akg-bensheim.de"
+		},
+		{
+			"firstname": "Karola",
+			"lastname": "Gose",
+			"shortname": "Go",
+			"subjects": "Mathematik, Informatik",
+			"email": "kgose@web.de"
+		},
+		{
+			"firstname": "Matthias",
+			"lastname": "Gröbel",
+			"shortname": "Gb",
+			"subjects": "Deutsch, Geschichte, PoWi",
+			"email": "Gb@akg-bensheim.de"
+		},
+		{
+			"firstname": "Ines",
+			"lastname": "Harjes",
+			"shortname": "Hjs",
+			"subjects": "Mathematik, Sport",
+			"email": "Hjs@akg-bensheim.de"
+		},
+		{
+			"firstname": "Rainer",
+			"lastname": "Hartmann",
+			"shortname": "Ht",
+			"subjects": "Biologie, Erdkunde, Sport",
+			"email": "Ht@akg-bensheim.de"
+		},
+		{
+			"firstname": "Ursula",
+			"lastname": "Hartmann",
+			"shortname": "HtF",
+			"subjects": "Mathematik, Sport",
+			"email": "HtF@akg-bensheim.de"
+		},
+		{
+			"firstname": "Dr. Uwe",
+			"lastname": "Hayer",
+			"shortname": "Hy",
+			"subjects": "Deutsch, Ethik, Philosophie",
+			"email": "hy.hayer@freenet.de"
+		},
+		{
+			"firstname": "Sonja",
+			"lastname": "Hayer-Lenz",
+			"shortname": "Lz",
+			"subjects": "Deutsch, Ethik, Musik",
+			"email": "sonjalenz1@gmx.de"
+		},
+		{
+			"firstname": "Manfred",
+			"lastname": "Hein",
+			"shortname": "zHn",
+			"subjects": "Latein, Musik",
+			"email": "Hein-Wulf@gmx.de"
+		},
+		{
+			"firstname": "Wieland",
+			"lastname": "Henkel",
+			"shortname": "xHe",
+			"subjects": "-",
+			"email": "xHe@akg-bensheim.de"
+		},
+		{
+			"firstname": "Ines",
+			"lastname": "Hoffmann",
+			"shortname": "Ho",
+			"subjects": "Spanisch, Sport",
+			"email": "Ho@akg-bensheim.de"
+		},
+		{
+			"firstname": "Sarah",
+			"lastname": "Höller",
+			"shortname": "Hö",
+			"subjects": "Deutsch, PoWi",
+			"email": "Hoe@akg-bensheim.de"
+		},
+		{
+			"firstname": "Angela",
+			"lastname": "von Holtum",
+			"shortname": "Hol",
+			"subjects": "-",
+			"email": "Hol@akg-bensheim.de"
+		},
+		{
+			"firstname": "Ingrid",
+			"lastname": "Ickler",
+			"shortname": "Ick",
+			"subjects": "Englisch, Italienisch, Französisch",
+			"email": "ingridickler@online.de"
+		},
+		{
+			"firstname": "Udo",
+			"lastname": "Jeserigk",
+			"shortname": "Je",
+			"subjects": "Deutsch, Englisch, Sport",
+			"email": "Je@akg-bensheim.de"
+		},
+		{
+			"firstname": "Tamara",
+			"lastname": "Jordan",
+			"shortname": "Jo",
+			"subjects": "Mathematik, Physik",
+			"email": "Jo@akg-bensheim.de"
+		},
+		{
+			"firstname": "Claus-Uwe",
+			"lastname": "Katzenmeier",
+			"shortname": "Km",
+			"subjects": "Mathematik, Physik",
+			"email": "Km@akg-bensheim.de"
+		},
+		{
+			"firstname": "Linde-Katrin",
+			"lastname": "Pritz",
+			"shortname": "Kau",
+			"subjects": "Englisch, Sport",
+			"email": "lindekkautz@hotmail.com"
+		},
+		{
+			"firstname": "Katja",
+			"lastname": "Keller",
+			"shortname": "Kel",
+			"subjects": "Französisch, Latein",
+			"email": "Kel@akg-bensheim.de"
+		},
+		{
+			"firstname": "Anne Heide",
+			"lastname": "Kirchhein",
+			"shortname": "Ki",
+			"subjects": "Mathematik, Biologie",
+			"email": "Ki@akg-bensheim.de"
+		},
+		{
+			"firstname": "Andrea",
+			"lastname": "Klein",
+			"shortname": "Klei",
+			"subjects": "Deutsch, Geschichte",
+			"email": "Klei@akg-bensheim.de"
+		},
+		{
+			"firstname": "Anne",
+			"lastname": "Kliba",
+			"shortname": "Kli",
+			"subjects": "Deutsch, ev. Religion",
+			"email": "anne.ross@web.de"
+		},
+		{
+			"firstname": "Christian",
+			"lastname": "Koch",
+			"shortname": "Kc",
+			"subjects": "Mathematik, Informatik, Physik",
+			"email": "christian@koch-bensheim.de"
+		},
+		{
+			"firstname": "Joachim",
+			"lastname": "Kohl",
+			"shortname": "Kl",
+			"subjects": "Mathematik, Physik",
+			"email": "Kl@akg-bensheim.de"
+		},
+		{
+			"firstname": "Jochen",
+			"lastname": "Kohlmann",
+			"shortname": "Klm",
+			"subjects": "Chemie, Erdkunde",
+			"email": "Klm@akg-bensheim.de"
+		},
+		{
+			"firstname": "Florian",
+			"lastname": "König",
+			"shortname": "Kö",
+			"subjects": "Biologie, Erdkunde",
+			"email": "Koe@akg-bensheim.de"
+		},
+		{
+			"firstname": "Christian",
+			"lastname": "Krebs",
+			"shortname": "Kbs",
+			"subjects": "Biologie, Geschichte, PoWi",
+			"email": "Christian-Krebs@gmx.de"
+		},
+		{
+			"firstname": "Florian",
+			"lastname": "Krumb",
+			"shortname": "Krb",
+			"subjects": "Deutsch, Mathematik",
+			"email": "Krb@akg-bensheim.de"
+		},
+		{
+			"firstname": "Bodo",
+			"lastname": "Kühnemann",
+			"shortname": "Kü",
+			"subjects": "Englisch, PoWi",
+			"email": "kuehnemann@googlemail.com"
+		},
+		{
+			"firstname": "Gabriele",
+			"lastname": "Lang",
+			"shortname": "La",
+			"subjects": "Deutsch, PoWi",
+			"email": "La@akg-bensheim.de"
+		},
+		{
+			"firstname": "Felix",
+			"lastname": "von Lehmden",
+			"shortname": "Ln",
+			"subjects": "Chemie, Philosophie",
+			"email": "vonlehmden_felix@web.de"
+		},
+		{
+			"firstname": "Dr. Andrea",
+			"lastname": "Link",
+			"shortname": "Li",
+			"subjects": "Deutsch, kath. Religion",
+			"email": "Li@akg-bensheim.de"
+		},
+		{
+			"firstname": "Jan",
+			"lastname": "Mandler",
+			"shortname": "Mdl",
+			"subjects": "Englisch, Physik, Spanisch",
+			"email": "akg@janmandler.de"
+		},
+		{
+			"firstname": "Melani",
+			"lastname": "Marcantonio",
+			"shortname": "Ma",
+			"subjects": "Mathematik, Sport",
+			"email": "Ma@akg-bensheim.de"
+		},
+		{
+			"firstname": "Ernst",
+			"lastname": "Meschede",
+			"shortname": "Me",
+			"subjects": "Geschichte, PoWi, Sport",
+			"email": "Me@akg-bensheim.de"
+		},
+		{
+			"firstname": "Klaus-Peter",
+			"lastname": "Meyer",
+			"shortname": "Mr",
+			"subjects": "Deutsch, PoWi",
+			"email": "Mr@akg-bensheim.de"
+		},
+		{
+			"firstname": "Rainer",
+			"lastname": "Michels",
+			"shortname": "Mi",
+			"subjects": "Physik, Musik",
+			"email": "Mi@akg-bensheim.de"
+		},
+		{
+			"firstname": "Stefan",
+			"lastname": "Mitze",
+			"shortname": "Mz",
+			"subjects": "Englisch, Geschichte",
+			"email": "Mz@akg-bensheim.de"
+		},
+		{
+			"firstname": "Nina",
+			"lastname": "Ohl",
+			"shortname": "Ohl",
+			"subjects": "Englisch, Französisch",
+			"email": "Ohl@akg-bensheim.de"
+		},
+		{
+			"firstname": "Christian",
+			"lastname": "Polzer",
+			"shortname": "Plz",
+			"subjects": "Biologie, Sport",
+			"email": "christian.polzer@gmx.net"
+		},
+		{
+			"firstname": "Jörg",
+			"lastname": "Pospischil",
+			"shortname": "xPos",
+			"subjects": "-",
+			"email": "xPos@akg-bensheim.de"
+		},
+		{
+			"firstname": "Claudia",
+			"lastname": "Richter",
+			"shortname": "Ri",
+			"subjects": "Biologie, Sport",
+			"email": "Ri@akg-bensheim.de"
+		},
+		{
+			"firstname": "Cornelia",
+			"lastname": "Riederer",
+			"shortname": "Rd",
+			"subjects": "Mathematik, Physik",
+			"email": "Rd@akg-bensheim.de"
+		},
+		{
+			"firstname": "Susanne",
+			"lastname": "Röper",
+			"shortname": "Rp",
+			"subjects": "Englisch, Französisch",
+			"email": "Rp@akg-bensheim.de"
+		},
+		{
+			"firstname": "Christian",
+			"lastname": "Roth",
+			"shortname": "zRo",
+			"subjects": "Sport",
+			"email": "chrisroth@t-online.de"
+		},
+		{
+			"firstname": "Carmen",
+			"lastname": "Sandu",
+			"shortname": "xSa",
+			"subjects": "-",
+			"email": "xSa@akg-bensheim.de"
+		},
+		{
+			"firstname": "Alexander",
+			"lastname": "Schaffert",
+			"shortname": "Sf",
+			"subjects": "Englisch, PoWi",
+			"email": "Sf@akg-bensheim.de"
+		},
+		{
+			"firstname": "Dirk",
+			"lastname": "Scheffler",
+			"shortname": "Sfl",
+			"subjects": "Latein, Geschichte",
+			"email": "dirkschefflerMR@freenet.de"
+		},
+		{
+			"firstname": "Dr. Simona",
+			"lastname": "Scheid",
+			"shortname": "xSt",
+			"subjects": "-",
+			"email": "xSt@akg-bensheim.de"
+		},
+		{
+			"firstname": "Gudrun",
+			"lastname": "Schenk",
+			"shortname": "Sk",
+			"subjects": "Mathematik, Physik",
+			"email": "Sk@akg-bensheim.de"
+		},
+		{
+			"firstname": "Hildegund",
+			"lastname": "Schepp-Bremer",
+			"shortname": "Sc",
+			"subjects": "Deutsch, Kunst",
+			"email": "Sc@akg-bensheim.de"
+		},
+		{
+			"firstname": "Maike",
+			"lastname": "Schmidt",
+			"shortname": "Sdt",
+			"subjects": "Biologie, ev. Religion",
+			"email": "Sdt@akg-bensheim.de"
+		},
+		{
+			"firstname": "Esther",
+			"lastname": "Schmitt",
+			"shortname": "Stt",
+			"subjects": "Mathematik, Biologie",
+			"email": "Stt@akg-bensheim.de"
+		},
+		{
+			"firstname": "Björn",
+			"lastname": "Schneider",
+			"shortname": "Sr",
+			"subjects": "Ethik, Geschichte, Philosophie, kath. Religion",
+			"email": "Sr@akg-bensheim.de"
+		},
+		{
+			"firstname": "Theresa",
+			"lastname": "Schneider",
+			"shortname": "xSn",
+			"subjects": "Mathematik, Biologie",
+			"email": "schneidertheresa@gmx.net"
+		},
+		{
+			"firstname": "Nicole",
+			"lastname": "Schnepf",
+			"shortname": "xSf",
+			"subjects": "Biologie, Ethik",
+			"email": "xSf@akg-bensheim.de"
+		},
+		{
+			"firstname": "Hans",
+			"lastname": "Schuller",
+			"shortname": "Su",
+			"subjects": "Deutsch, Englisch, PoWi",
+			"email": "schuller.hi@t-online.de"
+		},
+		{
+			"firstname": "Hiltrud",
+			"lastname": "Schulze",
+			"shortname": "Sz",
+			"subjects": "Mathematik, Erdkunde",
+			"email": "Sz@akg-bensheim.de"
+		},
+		{
+			"firstname": "Klaus",
+			"lastname": "Schuster",
+			"shortname": "Sh",
+			"subjects": "Mathematik, Physik",
+			"email": "Sh@akg-bensheim.de"
+		},
+		{
+			"firstname": "Nicolas",
+			"lastname": "Simon",
+			"shortname": "xSm",
+			"subjects": "Deutsch, PoWi",
+			"email": "xSm@akg-bensheim.de"
+		},
+		{
+			"firstname": "Iris",
+			"lastname": "Sudheimer",
+			"shortname": "Sd",
+			"subjects": "Deutsch, Französisch",
+			"email": "Sd@akg-bensheim.de"
+		},
+		{
+			"firstname": "Richard",
+			"lastname": "Thürauf",
+			"shortname": "Tf",
+			"subjects": "Mathematik, Physik",
+			"email": "Tf@akg-bensheim.de"
+		},
+		{
+			"firstname": "Jeanette",
+			"lastname": "Thüring",
+			"shortname": "Thg",
+			"subjects": "Französisch, Spanisch",
+			"email": "Thg@akg-bensheim.de"
+		},
+		{
+			"firstname": "Dr. Ullrich",
+			"lastname": "Treubert-Zimmermann",
+			"shortname": "Tr",
+			"subjects": "Biologie, Chemie",
+			"email": "Tr@akg-bensheim.de"
+		},
+		{
+			"firstname": "Dirk",
+			"lastname": "Tritsch",
+			"shortname": "Th",
+			"subjects": "Mathematik, Geschichte, PoWi",
+			"email": "Th@akg-bensheim.de"
+		},
+		{
+			"firstname": "Karlheinz",
+			"lastname": "Wecht",
+			"shortname": "W",
+			"subjects": "Schulleiter - Mathematik, Physik",
+			"email": "W@akg-bensheim.de"
+		},
+		{
+			"firstname": "Anja",
+			"lastname": "Windmöller",
+			"shortname": "xWm",
+			"subjects": "-",
+			"email": "xWm@akg-bensheim.de"
+		},
+		{
+			"firstname": "Sandra",
+			"lastname": "Woelki",
+			"shortname": "Wk",
+			"subjects": "Englisch, Erdkunde",
+			"email": "Wk@akg-bensheim.de"
+		},
+		{
+			"firstname": "Stephanie",
+			"lastname": "Wölfl",
+			"shortname": "Wö",
+			"subjects": "-",
+			"email": "Woe@akg-bensheim.de"
+		},
+		{
+			"firstname": "Sabine",
+			"lastname": "Wulf",
+			"shortname": "Wu",
+			"subjects": "Englisch, Musik",
+			"email": "Wu@akg-bensheim.de"
+		},
+		{
+			"firstname": "Dr. Peter",
+			"lastname": "Zehfuß",
+			"shortname": "Zeh",
+			"subjects": "Englisch, ev. Religion",
+			"email": "Zeh@akg-bensheim.de"
+		},
+		{
+			"firstname": "Andrea",
+			"lastname": "Zeilfelder",
+			"shortname": "Zf",
+			"subjects": "Englisch, Französisch",
+			"email": "Zf@akg-bensheim.de"
+		},
+		{
+			"firstname": "Stephan",
+			"lastname": "Zimnik",
+			"shortname": "Zi",
+			"subjects": "Latein, kath. Religion",
+			"email": "Zi@akg-bensheim.de"
+		}
+	]
+}

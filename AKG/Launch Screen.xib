@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B23" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <navigationController id="1ya-L3-5SG">
+            <navigationBar key="navigationBar" contentMode="scaleToFill" id="ilm-EL-Ufn">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </navigationBar>
+            <viewControllers>
+                <viewController id="YDW-oA-SkI">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZhH-7B-RPA"/>
+                        <viewControllerLayoutGuide type="bottom" id="R18-qV-awD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y35-Pw-S5g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="56r-B2-mSY">
+                        <barButtonItem key="leftBarButtonItem" image="MenuIcon" id="mQC-bB-7ZT"/>
+                    </navigationItem>
+                </viewController>
+            </viewControllers>
+            <point key="canvasLocation" x="798" y="692"/>
+        </navigationController>
+    </objects>
+    <resources>
+        <image name="MenuIcon" width="30" height="30"/>
+    </resources>
+</document>
