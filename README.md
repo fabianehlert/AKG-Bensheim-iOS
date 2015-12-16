@@ -18,6 +18,8 @@
 
 Now, three years after the release of the first version, the complete AKG Bensheim for iOS project is available to everyone out there.
 
+Further information is available on [http://akgbensheim.de](http://www.akgbensheim.de).
+
 _A version for Android is available here: [AKG Bensheim for Android](https://github.com/P0T4T0x/AKGBensheim)_
 
 ## Change Log version 4.2.1 (from 4.2)
