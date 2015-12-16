@@ -26,4 +26,4 @@ _A version for Android is available here: [AKG Bensheim for Android](https://git
 * Fixes a crash on devices where "24 hour format" is turned off
 
 ## Notes
-** This project is associated with a german school called "AKG Bensheim" and has nothing to do with AKG Acoustics. **
+**This project is associated with a german school called "AKG Bensheim" and has nothing to do with AKG Acoustics.**
