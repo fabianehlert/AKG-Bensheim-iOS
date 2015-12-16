@@ -248,7 +248,7 @@
         titleLabel.textColor = [UIColor colorWithWhite:0.34 alpha:1.0];
         titleLabel.attributedText = [self attributedStringWithFirstString:weekDay secondString:day];
     }
-        
+    
     shimmeringView.contentView = titleLabel;
     
     return hView;
@@ -266,7 +266,7 @@
         lightFont = [UIFont systemFontOfSize:17.0 weight:UIFontWeightLight];
     }
     
-
+    
     NSMutableAttributedString *aStr = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@", str0, str1]];
     [aStr addAttribute:NSFontAttributeName value:mediumFont range:NSMakeRange(0, str0.length)];
     [aStr addAttribute:NSFontAttributeName value:lightFont range:NSMakeRange(str0.length + 1, str1.length)];
@@ -306,7 +306,7 @@
     cell.subjectOldLabel.text = [supply validOldSubject];
     cell.roomNewLabel.text = [NSString stringWithFormat:@"Raum: %@", [supply validNeuerRaum]];
     cell.subjectNewLabel.text = [NSString stringWithFormat:@"Fach: %@", [supply validNewSubject]];
-
+    
     return cell;
 }
 
@@ -511,7 +511,7 @@
             [self.sideMenuViewController.contentViewController addChildViewController:self.detailController];
             [self.sideMenuViewController.contentViewController.view addSubview:self.detailController.view];
             [self.detailController didMoveToParentViewController:self];
-
+            
             
             static CGFloat detailWidth = 300.0;
             static CGFloat detailHeight = 210.0;
@@ -551,7 +551,7 @@
             
             UIGraphicsBeginImageContextWithOptions(self.view.frame.size, 0, 0);
             [self.sideMenuViewController.contentViewController.view drawViewHierarchyInRect:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) afterScreenUpdates:NO];
-
+            
             UIImage *backgroundImage = UIGraphicsGetImageFromCurrentImageContext();
             
             UIGraphicsEndImageContext();
@@ -559,7 +559,7 @@
             
             // BlurImage & ImageView
             UIImage *blurredBG = [backgroundImage applyBlurWithRadius:4.0 tintColor:[UIColor colorWithWhite:0.0 alpha:0.84] saturationDeltaFactor:2.3 maskImage:nil];
-
+            
             self.darkBlurImageView = [[UIImageView alloc] initWithFrame:self.view.frame];
             self.darkBlurImageView.contentMode = UIViewContentModeScaleAspectFill;
             self.darkBlurImageView.image = blurredBG;
@@ -573,14 +573,14 @@
             [self.darkBlurImageView addGestureRecognizer:self.tap];
             
             [self.sideMenuViewController.contentViewController.view addSubview:self.darkBlurImageView];
-
+            
             
             // Cell Snapshot
             self.cellSnapshotImageView = [[UIImageView alloc] initWithImage:img];
             [self.cellSnapshotImageView setFrame:rect];
             
             [self.sideMenuViewController.contentViewController.view addSubview:self.cellSnapshotImageView];
-
+            
             
             // DetailController
             self.detailController = [self.storyboard instantiateViewControllerWithIdentifier:@"SUPPLY_DETAIL"];
@@ -602,7 +602,7 @@
             interpolationVertical.minimumRelativeValue = @(-10);
             interpolationVertical.maximumRelativeValue = @(10);
             
-
+            
             [self.sideMenuViewController.contentViewController addChildViewController:self.detailController];
             [self.sideMenuViewController.contentViewController.view addSubview:self.detailController.view];
             [self.detailController didMoveToParentViewController:self];
@@ -650,7 +650,7 @@
         [UIView animateWithDuration:0.1 animations:^{
             self.detailController.view.alpha = 0.0;
         }];
-
+        
         [UIView animateWithDuration:0.38
                               delay:0.0
              usingSpringWithDamping:0.83
@@ -692,7 +692,7 @@
         [UIView animateWithDuration:0.1 animations:^{
             self.detailController.view.alpha = 0.0;
         }];
-
+        
         [UIView animateWithDuration:0.38
                               delay:0.0
              usingSpringWithDamping:0.83
@@ -739,7 +739,7 @@
         [UIView animateWithDuration:0.1 animations:^{
             self.detailController.view.alpha = 0.0;
         }];
-
+        
         [UIView animateWithDuration:0.38
                               delay:0.0
              usingSpringWithDamping:0.83

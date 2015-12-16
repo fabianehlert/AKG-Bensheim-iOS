@@ -55,16 +55,16 @@
         self.fullArray = [self.fullArray sortedArrayUsingComparator:^NSComparisonResult(SupplyItem *obj1, SupplyItem *obj2) {
             return [obj1.stunde caseInsensitiveCompare:obj2.stunde];
         }];
-       
+        
         self.fullArray = [self.fullArray sortedArrayUsingComparator:^NSComparisonResult(SupplyItem *obj1, SupplyItem *obj2) {
             return [obj1.datum compare:obj2.datum];
         }];
-
+        
         self.supplyArray = [FESupplyFetcher filterArray:self.fullArray];
-
+        
         self.todaySection = -1;
         self.tomorrowSection = -1;
-
+        
         [self informDelegateAboutChangesOfType:FESupplyFetcherDataTypeOffline succeeded:YES];
         return;
     }
@@ -88,9 +88,9 @@
     } else if (week == 1) {
         dateComponents = [[NSCalendar currentCalendar] components:NSCalendarUnitWeekOfYear fromDate:[NSDate dateWithTimeIntervalSinceNow:60*60*24*7]];
     }
-
+    
     NSInteger calendarweek = [dateComponents weekOfYear];
-
+    
     NSString *currentWeekString;
     
     if (calendarweek < 10) {
@@ -122,7 +122,7 @@
         TFHpple *path0 = [[TFHpple alloc] initWithHTMLData:parseResultWeek0];
         
         NSArray *rawSupplyArray0 = [path0 searchWithXPathQuery:@"//table[@class='subst']/tr/td"];
-
+        
         for (TFHppleElement *item in rawSupplyArray0) {
             if ([item.content isEqualToString:@""] || item.content == nil) {
                 [supplyArray addObject:@"---"];
@@ -165,7 +165,7 @@
             }
         }
     }
-
+    
     NSMutableArray *schoolClassArray = [[NSMutableArray alloc] init];
     NSMutableArray *dateArray = [[NSMutableArray alloc] init];
     NSMutableArray *lessonArray = [[NSMutableArray alloc] init];
@@ -175,7 +175,7 @@
     NSMutableArray *roomNewArray = [[NSMutableArray alloc] init];
     NSMutableArray *roomOldArray = [[NSMutableArray alloc] init];
     NSMutableArray *informationArray = [[NSMutableArray alloc] init];
-
+    
     if (supplyArray.count == 0 || supplyArray.count <= 5) {
         NSLog(@"Supply data: error (%lu objects)", (unsigned long)[supplyArray count]);
         
@@ -187,7 +187,7 @@
         
         [self informDelegateAboutChangesOfType:FESupplyFetcherDataTypeOnline succeeded:YES];
         [FESupplyFetcher saveContext];
-
+        
     } else {
         for (NSUInteger i = 0; i <= [supplyArray count] - 8; i = i + 9) {
             [schoolClassArray addObject:[supplyArray objectAtIndex:i]];
@@ -242,12 +242,13 @@
             NSString *informationString = [FESupplyFetcher validInformationStringOfString:informationArray[i]];
             
             NSDateFormatter *year = [[NSDateFormatter alloc] init];
-            [year setLocale:[NSLocale currentLocale]];
+            [year setLocale:[NSLocale localeWithLocaleIdentifier:@"de_DE"]];
+            
             [year setDateFormat:@"yyyy"];
             NSString *currentYear = [year stringFromDate:[NSDate date]];
             
             NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-            [formatter setLocale:[NSLocale currentLocale]];
+            [formatter setLocale:[NSLocale localeWithLocaleIdentifier:@"de_DE"]];
             [formatter setDateFormat:@"dd.MM.yyyy-HH:mm:ss"];
             
             if (![dateString isEqualToString:@"---"] && ![dateString isEqualToString:@""] && dateString != nil) {
@@ -265,24 +266,24 @@
                 supply.neuesFach = subjectNewString;
                 supply.info = informationString;
                 [supply setupUUID];
-                                
+                
                 [mutableSupplyArray addObject:supply];
             }
         }
-
+        
         self.fullArray = [NSArray arrayWithArray:mutableSupplyArray];
         
         // Filter by date and lesson
         self.fullArray = [self.fullArray sortedArrayUsingComparator:^NSComparisonResult(SupplyItem *obj1, SupplyItem *obj2) {
             return [obj1.stunde caseInsensitiveCompare:obj2.stunde];
         }];
-                
+        
         self.fullArray = [self.fullArray sortedArrayUsingComparator:^NSComparisonResult(SupplyItem *obj1, SupplyItem *obj2) {
             return [obj1.datum compare:obj2.datum];
         }];
-
+        
         self.supplyArray = [FESupplyFetcher filterArray:self.fullArray];
-
+        
         
         NSUserDefaults *groupDefaults = [NSUserDefaults standardUserDefaults];
         NSInteger count = self.supplyArray.count;
@@ -407,7 +408,7 @@
             [informationArray addObject:[supplyArray objectAtIndex:i]];
         }
         
-
+        
         NSMutableArray *mutableSupplyArray = [[NSMutableArray alloc] init];
         
         for (NSUInteger i = 0; i < [schoolClassArray count]; i++) {
@@ -425,12 +426,12 @@
             NSString *informationString = [FESupplyFetcher validInformationStringOfString:informationArray[i]];
             
             NSDateFormatter *year = [[NSDateFormatter alloc] init];
-            [year setLocale:[NSLocale currentLocale]];
+            [year setLocale:[NSLocale localeWithLocaleIdentifier:@"de_DE"]];
             [year setDateFormat:@"yyyy"];
             NSString *currentYear = [year stringFromDate:[NSDate date]];
             
             NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-            [formatter setLocale:[NSLocale currentLocale]];
+            [formatter setLocale:[NSLocale localeWithLocaleIdentifier:@"de_DE"]];
             [formatter setDateFormat:@"dd.MM.yyyy-HH:mm:ss"];
             
             if (![dateString isEqualToString:@"---"] && ![dateString isEqualToString:@""] && dateString != nil) {
@@ -626,7 +627,7 @@
 {
     NSDateFormatter *currentDateFormatter = [[NSDateFormatter alloc] init];
     [currentDateFormatter setDateFormat:@"dd.MM.yyyy"];
-
+    
     NSDate *today = [NSDate date];
     NSString *todayString = [currentDateFormatter stringFromDate:today];
     
@@ -641,10 +642,10 @@
     
     NSDate *tomorrow = [[NSDate date] dateByAddingTimeInterval:60*60*24];
     NSString *tomorrowString = [currentDateFormatter stringFromDate:tomorrow];
-
+    
     for (NSUInteger c = 0; c < [array count]; c++) {
         NSString *aDate = [[array objectAtIndex:c] objectForKey:@"sectionDate"];
-
+        
         if ([aDate isEqualToString:tomorrowString]) {
             self.tomorrowSection = c;
         }
@@ -661,8 +662,11 @@
     
     [self.supplyArray enumerateObjectsUsingBlock:^(SupplyItem *item, NSUInteger idx, BOOL *stop) {
         NSString *currentDateString = [dateFormatter stringFromDate:item.datum];
-
-        if (idx == 0) {
+        
+#pragma mark - is nil when 24hr is turned off
+        NSLog(@"DATUM= %@", item.datum);
+        
+        if (idx == 0 && currentDateString != nil) {
             [allDates addObject:currentDateString];
         }
         
@@ -670,7 +674,9 @@
             SupplyItem *prevSpl = self.supplyArray[idx - 1];
             NSString *prevObject = [dateFormatter stringFromDate:prevSpl.datum];
             
-            if (![prevObject isEqualToString:currentDateString] && ![prevObject isEqualToString:@"---"] && ![currentDateString isEqualToString:@"---"]) {
+            NSLog(@"currentDateString= %@", currentDateString);
+            
+            if (![prevObject isEqualToString:currentDateString] && ![prevObject isEqualToString:@"---"] && ![currentDateString isEqualToString:@"---"] && currentDateString != nil) {
                 [allDates addObject:currentDateString];
             }
         }
@@ -683,7 +689,7 @@
         
         [self.supplyArray enumerateObjectsUsingBlock:^(SupplyItem *item, NSUInteger idx, BOOL *stop) {
             NSString *currentDateString = [dateFormatter stringFromDate:item.datum];
-
+            
             if ([currentDateString isEqualToString:dateObject]) {
                 itemsInSection++;
             }

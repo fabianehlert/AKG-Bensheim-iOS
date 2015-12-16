@@ -79,7 +79,7 @@
     } else {
         rect = CGRectMake(0, 64.0, self.view.frame.size.width, self.view.frame.size.height - 64.0);
     }
-
+    
     self.multiColumnView = [[FEMultiColumnView alloc] initWithFrame:rect];
     self.multiColumnView.dataSource = self;
     self.multiColumnView.delegate = self;
@@ -96,9 +96,9 @@
     self.title = FELocalized(@"SUPPLY_PLAN_KEY");
     
     UIBarButtonItem *reloadItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"ReloadButton"]
-                                                         style:UIBarButtonItemStyleBordered
-                                                        target:self
-                                                        action:@selector(loadOnlineData)];
+                                                                   style:UIBarButtonItemStyleBordered
+                                                                  target:self
+                                                                  action:@selector(loadOnlineData)];
     self.navigationItem.rightBarButtonItem = reloadItem;
     
     [self setupMenu];
@@ -172,7 +172,7 @@
 - (void)supplyFetcherDataChanged:(FESupplyFetcher *)fetcher finishedLoadingDataOfType:(FESupplyFetcherDataType)type success:(BOOL)success
 {
     NSLog(@"%s", __PRETTY_FUNCTION__);
-
+    
     if (success) {
         self.filteredArray = fetcher.supplyArray;
         self.sectionArray = [[FESupplyFetcher sharedFetcher] sectionInformation];
@@ -184,7 +184,7 @@
         
         // Reload the Table
         [self.multiColumnView reloadTableViewContents];
-
+        
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         
         if (type == FESupplyFetcherDataTypeOffline) {
@@ -248,7 +248,7 @@
     if ([day characterAtIndex:day.length - 1] == '.') {
         day = [day stringByReplacingCharactersInRange:NSMakeRange(day.length - 1, 1) withString:@""];
     }
-
+    
     // ShimmeringView
     CGRect shimmerRect = CGRectMake(0, 0, self.view.frame.size.width, hView.frame.size.height);
     FBShimmeringView *shimmeringView = [[FBShimmeringView alloc] initWithFrame:shimmerRect];
@@ -286,7 +286,7 @@
         titleLabel.textColor = [UIColor colorWithWhite:0.34 alpha:1.0];
         titleLabel.attributedText = [self attributedStringWithFirstString:weekDay secondString:day];
     }
-        
+    
     shimmeringView.contentView = titleLabel;
     
     return hView;
@@ -304,7 +304,7 @@
         lightFont = [UIFont systemFontOfSize:17.0 weight:UIFontWeightLight];
     }
     
-
+    
     NSMutableAttributedString *aStr = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@", str0, str1]];
     [aStr addAttribute:NSFontAttributeName value:mediumFont range:NSMakeRange(0, str0.length)];
     [aStr addAttribute:NSFontAttributeName value:lightFont range:NSMakeRange(str0.length + 1, str1.length)];
@@ -320,7 +320,7 @@
         [tv registerNib:[UINib nibWithNibName:@"SupplyCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"Cell"];
         cell = [tv dequeueReusableCellWithIdentifier:@"Cell"];
     }
-
+    
     SupplyItem *supply = self.filteredArray[indexPath.row + [self numberOfRowsInFrontOfIndex:indexPath]];
     NSString *artText = supply.art;
     NSString *displayTyp = [SupplyHelper displayTypeForType:artText];
@@ -473,7 +473,7 @@
             self.nullCountLabel.center = CGPointMake(self.view.frame.size.width / 2, self.view.frame.size.height / 2);
             self.nullCountLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleBottomMargin;
         }
-
+        
         self.nullCountLabel.backgroundColor = [UIColor clearColor];
         self.nullCountLabel.textColor = [UIColor colorWithWhite:0.33 alpha:1.0];
         self.nullCountLabel.highlightedTextColor = self.nullCountLabel.textColor;
@@ -483,7 +483,7 @@
         } else {
             self.nullCountLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:28.0];
         }
-
+        
         self.nullCountLabel.textAlignment = NSTextAlignmentCenter;
         self.nullCountLabel.text = FELocalized(@"SUPPLY_NOT_AVLBL_KEY");
         self.nullCountLabel.alpha = 0.0;
@@ -716,7 +716,7 @@
         } else {
             rect = CGRectMake(0, 64.0, self.view.frame.size.width, self.view.frame.size.height - 64.0);
         }
-
+        
         self.multiColumnView.frame = rect;
         [self.multiColumnView updateBounds];
         
