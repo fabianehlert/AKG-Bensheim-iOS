@@ -1,8 +1,8 @@
 # AKG Bensheim for iOS
 
-[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)]()
-[![Platform](https://img.shields.io/badge/platform-iOS-yellow.svg)]()
-[![Version](https://img.shields.io/badge/version-4.2.1-green.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/fabianehlert/AKG-Bensheim-iOS)
+[![Platform](https://img.shields.io/badge/platform-iOS-yellow.svg)](https://github.com/fabianehlert/AKG-Bensheim-iOS)
+[![Version](https://img.shields.io/badge/version-4.2.1-green.svg)](https://github.com/fabianehlert/AKG-Bensheim-iOS)
 [![Twitter: @fabianehlert](https://img.shields.io/badge/twitter-fabianehlert-blue.svg)](https://twitter.com/fabianehlert)
 
 **iOS 7.1 or later required**
