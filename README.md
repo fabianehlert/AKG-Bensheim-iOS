@@ -28,5 +28,27 @@ _A version for Android is available here: [AKG Bensheim for Android](https://git
 * First open-sourced version on GitHub
 * Fixes a crash on devices where "24 hour format" is turned off
 
+## Releases
+
+A list of all releases published on the App Store so far.
+
+Version | Release date
+--- | ---
+1.0 | 09.Nov 2012
+1.0.1 | 01.Dec 2012
+1.0.2 | 21.Dec 2012
+1.0.3 | 12.Jan 2013
+1.0.4 | 29.Jan 2013
+1.0.5 | 14.Feb 2013
+2.0 | 19.Apr 2013
+3.0 | 17.Sep 2013
+3.0.1 | 24.Sep 2013
+3.1 | 30.Oct 2013
+3.1.1 | 20.Dec 2013
+4.0 | 30.Apr 2014
+4.1 | 17.Mar 2015
+4.2 | 24.Sep 2015
+4.2.1 | 17.Nov 2015
+
 ## Notes
 **This project is associated with a german school called "AKG Bensheim" and has nothing to do with AKG Acoustics.**
