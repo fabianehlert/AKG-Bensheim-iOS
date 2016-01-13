@@ -83,16 +83,18 @@
 {
     NSDateComponents *dateComponents;
     
+    NSCalendar *cal = [[NSLocale localeWithLocaleIdentifier:@"de_DE"] objectForKey:NSLocaleCalendar];
+    
     if (week == 0) {
-        dateComponents = [[NSCalendar currentCalendar] components:NSCalendarUnitWeekOfYear fromDate:[NSDate date]];
+        dateComponents = [cal components:NSCalendarUnitWeekOfYear fromDate:[NSDate date]];
     } else if (week == 1) {
-        dateComponents = [[NSCalendar currentCalendar] components:NSCalendarUnitWeekOfYear fromDate:[NSDate dateWithTimeIntervalSinceNow:60*60*24*7]];
+        dateComponents = [cal components:NSCalendarUnitWeekOfYear fromDate:[NSDate dateWithTimeIntervalSinceNow:60*60*24*7]];
     }
     
     NSInteger calendarweek = [dateComponents weekOfYear];
     
     NSString *currentWeekString;
-    
+
     if (calendarweek < 10) {
         currentWeekString = [NSString stringWithFormat:@"0%ld", (long)calendarweek];
     } else if (calendarweek >= 10) {
@@ -663,7 +665,6 @@
     [self.supplyArray enumerateObjectsUsingBlock:^(SupplyItem *item, NSUInteger idx, BOOL *stop) {
         NSString *currentDateString = [dateFormatter stringFromDate:item.datum];
         
-#pragma mark - is nil when 24hr is turned off
         NSLog(@"DATUM= %@", item.datum);
         
         if (idx == 0 && currentDateString != nil) {
