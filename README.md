@@ -49,6 +49,7 @@ Version | Release date | Remarks
 4.1 | 17.Mar 2015 | Support for iPhone 6 and iPhone 6 Plus.
 4.2 | 24.Sep 2015 | Support for iOS 9.
 4.2.1 | 17.Nov 2015 | Fixed a crash on devices where "24 hour format" is turned off
+4.2.2 | 17.Jan 2016 | Fixed a localization issue.
 
 ## Notes
 **This project is associated with a german school called "AKG Bensheim" and has nothing to do with AKG Acoustics.**
