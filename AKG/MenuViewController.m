@@ -105,26 +105,26 @@ static NSString *helpControllerID = @"HELP";
     /*
      ///---> no longer necessary!!
      ///---> AutoResizingMask solves the problem!
-#error don´t implement this!
-    CGRect tableRect = CGRectZero;
-    CGFloat topInset = 0.0;
-    CGFloat bottomInset = 0.0;
-    
-    if (self.view.frame.size.height > 496.0) {
-        tableRect = CGRectMake(0, (self.view.frame.size.height - 496) / 2.0f, self.view.frame.size.width, 496);
-    } else {
-        tableRect = CGRectMake(0, 20.0, self.view.frame.size.width, self.view.frame.size.height - 20.0);
-        topInset = 30.0;
-        bottomInset = 65.0;
-    }
-    
-    [self.menuTableView setFrame:tableRect];
-    [self.menuTableView setContentInset:UIEdgeInsetsMake(topInset, 0.0, bottomInset, 0.0)];
-    [self.menuTableView setNeedsDisplay];
-    
-    [self.menuTableView beginUpdates];
-    [self.menuTableView endUpdates];
-    */
+     #error don´t implement this!
+     CGRect tableRect = CGRectZero;
+     CGFloat topInset = 0.0;
+     CGFloat bottomInset = 0.0;
+     
+     if (self.view.frame.size.height > 496.0) {
+     tableRect = CGRectMake(0, (self.view.frame.size.height - 496) / 2.0f, self.view.frame.size.width, 496);
+     } else {
+     tableRect = CGRectMake(0, 20.0, self.view.frame.size.width, self.view.frame.size.height - 20.0);
+     topInset = 30.0;
+     bottomInset = 65.0;
+     }
+     
+     [self.menuTableView setFrame:tableRect];
+     [self.menuTableView setContentInset:UIEdgeInsetsMake(topInset, 0.0, bottomInset, 0.0)];
+     [self.menuTableView setNeedsDisplay];
+     
+     [self.menuTableView beginUpdates];
+     [self.menuTableView endUpdates];
+     */
 }
 
 #pragma mark - StatusBar
@@ -190,7 +190,7 @@ static NSString *helpControllerID = @"HELP";
     if (cell == nil) {
         cell = [[MenuTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
         cell.backgroundColor = [UIColor clearColor];
-
+        
         if ([FEVersionChecker version] >= 9.0) {
             cell.textLabel.font = [UIFont systemFontOfSize:21.0 weight:UIFontWeightLight];
         } else {
@@ -199,7 +199,7 @@ static NSString *helpControllerID = @"HELP";
         
         cell.textLabel.textColor = [UIColor whiteColor];
         cell.textLabel.highlightedTextColor = [UIColor whiteColor];
-        
+                
         cell.selectedBackgroundView = ({
             UIView *selectedCellBG = [[UIView alloc] init];
             selectedCellBG.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.22];
@@ -274,7 +274,7 @@ static NSString *helpControllerID = @"HELP";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-        
+    
     switch (indexPath.section) {
         case 0:
             if (indexPath.row == 0) {
@@ -284,8 +284,8 @@ static NSString *helpControllerID = @"HELP";
             break;
         case 1:
             if (indexPath.row == 0) {
-                    [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:mensaPlanControllerID]] animated:YES];
-                    [self.sideMenuViewController hideMenuViewController];
+                [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:mensaPlanControllerID]] animated:YES];
+                [self.sideMenuViewController hideMenuViewController];
             }
             break;
         case 2:
