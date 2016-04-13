@@ -71,11 +71,7 @@
     CGRect rect;
     
     if ([FEVersionChecker version] >= 8.0) {
-        if ([FEVersionChecker version] >= 9.0) {
-            rect = CGRectMake(0, 64.0, self.view.frame.size.width, self.view.frame.size.height);
-        } else {
-            rect = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
-        }
+        rect = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     } else {
         rect = CGRectMake(0, 64.0, self.view.frame.size.width, self.view.frame.size.height - 64.0);
     }
@@ -115,11 +111,7 @@
     CGRect rect;
     
     if ([FEVersionChecker version] >= 8.0) {
-        if ([FEVersionChecker version] >= 9.0) {
-            rect = CGRectMake(0, 64.0, self.view.frame.size.width, self.view.frame.size.height);
-        } else {
-            rect = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
-        }
+        rect = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     } else {
         rect = CGRectMake(0, 64.0, self.view.frame.size.width, self.view.frame.size.height - 64.0);
     }

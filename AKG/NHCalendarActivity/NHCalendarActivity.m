@@ -39,7 +39,7 @@
     
     if (self) {
         self.events = [NSMutableArray array];
-        self.activityImage = [UIImage imageNamed:@"NHCalendarActivity.bundle/NHCalendarActivityIcon"];
+        self.activityImage = [UIImage imageNamed:@"CalendarEvent"];
     }
     
     return self;
