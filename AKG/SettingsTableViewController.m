@@ -308,7 +308,7 @@ static NSString *defaultMenuBackgroundImageName = @"MenuBackground";
     if ([filterString isEqualToString:@"Alle"]) {
         index = 0;
     } else if ([filterString isEqualToString:@"K_Abi"]) {
-        index = [self.klassenArray count] - 1;
+        index = [self.klassenArray count];
     } else {
                 for (NSUInteger i = 0; i < filterString.length; i++) {
             char c = [filterString characterAtIndex:i];
