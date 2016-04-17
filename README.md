@@ -23,6 +23,12 @@ Further information is available on [http://akgbensheim.de](http://www.akgbenshe
 
 _A version for Android is available here: [AKG Bensheim for Android](https://github.com/P0T4T0x/AKGBensheim)_
 
+## Change Log version 4.2.3 (from 4.2.3)
+
+* Fixes Supply plan layout issue on iPad
+* Fixes App crash when trying to set a new wallpaper via SettingsTableViewController
+* Fixes AutoLayout issue which led to a too small Label in SettingsTableViewController
+
 ## Change Log version 4.2.2 (from 4.2.1)
 
 * Fixes a localization issue
@@ -54,6 +60,7 @@ Version | Release date | Remarks
 4.2 | 24.Sep 2015 | Support for iOS 9.
 4.2.1 | 17.Nov 2015 | Fixed a crash on devices where "24 hour format" is turned off
 4.2.2 | 17.Jan 2016 | Fixed a localization issue.
+4.2.3 | xx.xxx 2016 | iPad Layout fixes, fixes Settings TableViewController crash when trying to set a new wallpaper.
 
 ## Notes
 **This project is associated with a german school called "AKG Bensheim" and has nothing to do with AKG Acoustics.**
