@@ -248,6 +248,17 @@ static NSString *defaultMenuBackgroundImageName = @"MenuBackground";
                                                          handler:^(UIAlertAction *action) {
                                                              [self setBackgroundImageFromSourceType:3];
                                                          }]];
+            
+            if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+                [imageSheet setModalPresentationStyle:UIModalPresentationPopover];
+                
+                UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+                
+                UIPopoverPresentationController *popPresenter = [imageSheet popoverPresentationController];
+                popPresenter.sourceView = cell;
+                popPresenter.sourceRect = cell.bounds;
+            }
+            
             [self presentViewController:imageSheet animated:YES completion:nil];
         } else {
             self.imageOptionsSheet = [[UIActionSheet alloc] initWithTitle:FELocalized(@"CHOOSE_IMAGE_TITLE")

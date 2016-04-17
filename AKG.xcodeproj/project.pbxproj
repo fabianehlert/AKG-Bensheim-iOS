@@ -1148,7 +1148,7 @@
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian-ehlert.AKG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6c7f89ec-a784-4b80-b781-3241a2010107";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1173,7 +1173,7 @@
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian-ehlert.AKG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6c7f89ec-a784-4b80-b781-3241a2010107";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
