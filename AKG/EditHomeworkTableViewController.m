@@ -52,7 +52,7 @@
     self.taskTitleTextField.delegate = self;
 
     self.closeButton = [[UIBarButtonItem alloc] initWithTitle:FELocalized(@"CLOSE_TITLE")
-                                                        style:UIBarButtonItemStyleBordered
+                                                        style:UIBarButtonItemStylePlain
                                                        target:self
                                                        action:@selector(closeAction)];
     self.navigationItem.leftBarButtonItem = self.closeButton;

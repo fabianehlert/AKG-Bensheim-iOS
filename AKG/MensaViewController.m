@@ -70,7 +70,7 @@ static CGFloat kDefaultMenuItemHeightForAnimation = 46.0;
     self.noMenuLabel.text = FELocalized(@"MENSA_NOT_AVAILABLE");
     
     self.reloadButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"ReloadButton"]
-                                                         style:UIBarButtonItemStyleBordered
+                                                         style:UIBarButtonItemStylePlain
                                                         target:self
                                                         action:@selector(reloadMensaMenu)];
     self.navigationItem.rightBarButtonItem = self.reloadButton;
@@ -136,9 +136,9 @@ static CGFloat kDefaultMenuItemHeightForAnimation = 46.0;
     NSDateComponents *dateComponents;
 
     if (week == 0) {
-        dateComponents = [[NSCalendar currentCalendar] components:NSWeekOfYearCalendarUnit fromDate:[NSDate date]];
+        dateComponents = [[NSCalendar currentCalendar] components:NSCalendarUnitWeekOfYear fromDate:[NSDate date]];
     } else if (week == 1) {
-        dateComponents = [[NSCalendar currentCalendar] components:NSWeekOfYearCalendarUnit fromDate:[NSDate dateWithTimeIntervalSinceNow:60*60*24*7]];
+        dateComponents = [[NSCalendar currentCalendar] components:NSCalendarUnitWeekOfYear fromDate:[NSDate dateWithTimeIntervalSinceNow:60*60*24*7]];
     }
 
     NSInteger calendarweek = [dateComponents weekOfYear];
@@ -171,7 +171,7 @@ static CGFloat kDefaultMenuItemHeightForAnimation = 46.0;
 {
     // SideMenuButton
     UIBarButtonItem *sideMenuItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"MenuIcon"]
-                                                                     style:UIBarButtonItemStyleBordered
+                                                                     style:UIBarButtonItemStylePlain
                                                                     target:self
                                                                     action:@selector(showMenu)];
     

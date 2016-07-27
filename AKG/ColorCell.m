@@ -21,6 +21,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     self.colorView.layer.masksToBounds = YES;
     self.colorView.layer.cornerRadius = self.colorView.frame.size.height / 2;
 }

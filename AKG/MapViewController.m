@@ -30,7 +30,7 @@
     self.navigationItem.title = FELocalized(@"MAP_KEY");
     
     UIBarButtonItem *directionsItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"MapDirections"]
-                                                                       style:UIBarButtonItemStyleBordered
+                                                                       style:UIBarButtonItemStylePlain
                                                                       target:self
                                                                       action:@selector(requestShowDirections)];
     self.navigationItem.rightBarButtonItem = directionsItem;

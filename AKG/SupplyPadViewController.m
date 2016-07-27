@@ -92,7 +92,7 @@
     self.title = FELocalized(@"SUPPLY_PLAN_KEY");
     
     UIBarButtonItem *reloadItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"ReloadButton"]
-                                                                   style:UIBarButtonItemStyleBordered
+                                                                   style:UIBarButtonItemStylePlain
                                                                   target:self
                                                                   action:@selector(loadOnlineData)];
     self.navigationItem.rightBarButtonItem = reloadItem;
@@ -128,7 +128,7 @@
 {
     // SideMenuButton
     UIBarButtonItem *sideMenuItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"MenuIcon"]
-                                                                     style:UIBarButtonItemStyleBordered
+                                                                     style:UIBarButtonItemStylePlain
                                                                     target:self
                                                                     action:@selector(showMenu)];
     

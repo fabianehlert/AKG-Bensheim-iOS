@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "SupplyItem.h"
 #import "FESupplyFetcher.h"
+#import <UserNotifications/UserNotifications.h>
 
 @interface AppDelegate ()
 
@@ -35,18 +36,14 @@
         [[NSUserDefaults standardUserDefaults] setObject:typeArray forKey:@"vtypearray"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
-
+    
     return YES;
 }
 
 - (void)registerForRemoteNotification {
-    if ([FEVersionChecker version] >= 8.0) {
-        UIUserNotificationType types = UIUserNotificationTypeSound | UIUserNotificationTypeBadge | UIUserNotificationTypeAlert;
-        UIUserNotificationSettings *notificationSettings = [UIUserNotificationSettings settingsForTypes:types categories:nil];
-        [[UIApplication sharedApplication] registerUserNotificationSettings:notificationSettings];
-    } else {
-        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
-    }
+    UIUserNotificationType types = UIUserNotificationTypeSound | UIUserNotificationTypeBadge | UIUserNotificationTypeAlert;
+    UIUserNotificationSettings *notificationSettings = [UIUserNotificationSettings settingsForTypes:types categories:nil];
+    [[UIApplication sharedApplication] registerUserNotificationSettings:notificationSettings];
 }
 
 #ifdef __IPHONE_8_2

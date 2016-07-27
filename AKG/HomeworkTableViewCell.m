@@ -28,6 +28,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     if (self.tap == nil) {
         self.tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(circleTapped:)];
         self.tap.numberOfTapsRequired = 1;

@@ -63,12 +63,12 @@
     [self.webView loadRequest:[NSURLRequest requestWithURL:akgWebsiteURL]];
     
     self.backwardItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"BackwardButton"]
-                                                         style:UIBarButtonItemStyleBordered
+                                                         style:UIBarButtonItemStylePlain
                                                         target:self
                                                         action:@selector(goBackWard)];
 
     self.forwardItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"ForwardButton"]
-                                                         style:UIBarButtonItemStyleBordered
+                                                         style:UIBarButtonItemStylePlain
                                                         target:self
                                                         action:@selector(goForward)];
 
@@ -143,7 +143,7 @@
 {
     // SideMenuButton
     UIBarButtonItem *sideMenuItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"MenuIcon"]
-                                                                     style:UIBarButtonItemStyleBordered
+                                                                     style:UIBarButtonItemStylePlain
                                                                     target:self
                                                                     action:@selector(showMenu)];
     

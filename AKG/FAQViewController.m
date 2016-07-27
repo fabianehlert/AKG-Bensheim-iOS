@@ -35,7 +35,7 @@
     [super viewDidLoad];
     
     UIBarButtonItem *reloadButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"ReloadButton"]
-                                                                     style:UIBarButtonItemStyleBordered
+                                                                     style:UIBarButtonItemStylePlain
                                                                     target:self
                                                                     action:@selector(loadFAQ)];
     self.navigationItem.rightBarButtonItem = reloadButton;
