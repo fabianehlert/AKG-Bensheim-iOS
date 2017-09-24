@@ -151,7 +151,7 @@
             [self __hideViewController:self.contentViewController];
             [contentViewController didMoveToParentViewController:self];
             _contentViewController = contentViewController;
-            
+						
             [self __statusBarNeedsAppearanceUpdate];
             [self __updateContentViewShadow];
             

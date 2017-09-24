@@ -210,7 +210,7 @@
     UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 12)];
     header.alpha = 0.f;
     header.backgroundColor = [UIColor clearColor];
-    
+	
     return header;
 }
 
@@ -258,7 +258,8 @@
     AppointmentsCell *cell = nil;
     
     if (cell == nil) {
-        cell = [self.tableView dequeueReusableCellWithIdentifier:@"AppointmentCell" forIndexPath:indexPath];
+		cell = [self.tableView dequeueReusableCellWithIdentifier:@"AppointmentCell"];
+		// cell = [self.tableView dequeueReusableCellWithIdentifier: @"AppointmentCell" forIndexPath: indexPath];
     }
     
     Appointment *appointment = [[Appointment alloc] init];

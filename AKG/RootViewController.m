@@ -46,7 +46,7 @@ static NSString *defaultBlurredMenuBackgroundImageName = @"BlurredMenuBackground
         [self removeOldDataBases];
         
         [self transferOldData];
-        [self readTeachersOnce];
+        // [self readTeachersOnce];
         
         NSArray *typeArray = @[@{@"name": @"Vertretung", @"color": @"0"},
                                @{@"name": @"Fällt aus", @"color": @"1"},
