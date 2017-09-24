@@ -665,8 +665,6 @@
     [self.supplyArray enumerateObjectsUsingBlock:^(SupplyItem *item, NSUInteger idx, BOOL *stop) {
         NSString *currentDateString = [dateFormatter stringFromDate:item.datum];
         
-        NSLog(@"DATUM= %@", item.datum);
-        
         if (idx == 0 && currentDateString != nil) {
             [allDates addObject:currentDateString];
         }
@@ -674,8 +672,6 @@
         if (idx > 0) {
             SupplyItem *prevSpl = self.supplyArray[idx - 1];
             NSString *prevObject = [dateFormatter stringFromDate:prevSpl.datum];
-            
-            NSLog(@"currentDateString= %@", currentDateString);
             
             if (![prevObject isEqualToString:currentDateString] && ![prevObject isEqualToString:@"---"] && ![currentDateString isEqualToString:@"---"] && currentDateString != nil) {
                 [allDates addObject:currentDateString];
