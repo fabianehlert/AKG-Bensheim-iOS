@@ -116,9 +116,11 @@ static CGFloat kDefaultMenuItemHeightForAnimation = 46.0;
         menuContent = [[NSString alloc] initWithContentsOfURL:[self mensaURLForWeek:week] encoding:NSASCIIStringEncoding error:&error];
         
         if (menuContent.length > 0 && error == nil) {
-            NSURLRequest *mensaRequest = [NSURLRequest requestWithURL:[self mensaURLForWeek:week]];
-            [self.mensaWebView loadRequest:mensaRequest];
-            
+			dispatch_async(dispatch_get_main_queue(), ^{
+				NSURLRequest *mensaRequest = [NSURLRequest requestWithURL:[self mensaURLForWeek:week]];
+				[self.mensaWebView loadRequest:mensaRequest];
+			});
+			
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self hideNullCountLabel];
             });
