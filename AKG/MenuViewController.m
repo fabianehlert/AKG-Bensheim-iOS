@@ -154,7 +154,7 @@ static NSString *helpControllerID = @"HELP";
             return 1;
             break;
         case 3:
-            return 4;
+            return 3;
             break;
         case 4:
             return 2;
@@ -233,14 +233,10 @@ static NSString *helpControllerID = @"HELP";
                     cell.imageView.image = [UIImage imageNamed:@"SideMenuCalendar"];
                     break;
                 case 1:
-                    cell.textLabel.text = FELocalized(@"TEACHERS_KEY");
-                    cell.imageView.image = [UIImage imageNamed:@"SideMenuTeachers"];
-                    break;
-                case 2:
                     cell.textLabel.text = FELocalized(@"WEBSITE_KEY");
                     cell.imageView.image = [UIImage imageNamed:@"SideMenuWebsite"];
                     break;
-                case 3:
+                case 2:
                     cell.textLabel.text = FELocalized(@"CONTACT_KEY");
                     cell.imageView.image = [UIImage imageNamed:@"SideMenuContact"];
                     break;
@@ -301,14 +297,10 @@ static NSString *helpControllerID = @"HELP";
                     [self.sideMenuViewController hideMenuViewController];
                     break;
                 case 1:
-                    [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:teachersControllerID]] animated:YES];
-                    [self.sideMenuViewController hideMenuViewController];
-                    break;
-                case 2:
                     [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:websiteControllerID]] animated:YES];
                     [self.sideMenuViewController hideMenuViewController];
                     break;
-                case 3:
+                case 2:
                     [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:contactControllerID]] animated:YES];
                     [self.sideMenuViewController hideMenuViewController];
                     break;
